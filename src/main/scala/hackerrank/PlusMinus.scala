@@ -20,7 +20,7 @@ import scala.sys.*
 import scala.util.matching.*
 import scala.reflect.*
 
-object Result {
+object Resultpm {
 
   /*
    * Complete the 'plusMinus' function below.
@@ -49,12 +49,12 @@ object Result {
 
 }
 
-object Solution {
+object Solutionpm {
   def main(args: Array[String]): Unit = {
     val n = StdIn.readLine.trim.toInt
 
     val arr = StdIn.readLine.replaceAll("\\s+$", "").split(" ").map(_.trim.toInt)
 
-    Result.plusMinus(arr)
+    Resultpm.plusMinus(arr)
   }
 }
