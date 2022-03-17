@@ -42,13 +42,9 @@ object FlippingBit {
 
     val q = StdIn.readLine.trim.toInt
 
-    for (qItr <- 1 to q) {
+    for (qItr <- 1 to q)
       val n = StdIn.readLine.trim.toLong
-
       val result = ResultFB.flippingBits(n)
-
       println(result)
-    }
-
   }
 }
