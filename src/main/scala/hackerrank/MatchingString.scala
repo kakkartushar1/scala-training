@@ -37,7 +37,6 @@ object ResultMatch {
         count.put(str, newcount)
       } else {
         count.put(str, 1)
-
       }
     }
     for (i: Int <- 0 to (queries.length-1)) {
